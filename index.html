@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    
+    <style>
+body{
+background-image: url(p.jpg);
+background-size: 100% 100%;
+background-attachment: fixed;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            color: black; /* لون النص */
+        }
+        .image-container {
+            margin: 20px 0;
+        }
+        img {
+            width: 200px; /* عرض الصورة الكبيرة */
+            height: 200px; /* ارتفاع الصورة الكبيرة */
+            border-radius: 50%; /* لجعل الصورة دائرية */
+            object-fit: cover; /* لملاءمة الصورة داخل الدائرة */
+        }
+        .links {
+            display: flex; /* استخدام flexbox لترتيب العناصر أفقيًا */
+            justify-content: center; /* توسيط العناصر */
+            flex-wrap: wrap; /* السماح بتغليف العناصر إذا لزم الأمر */
+            margin-top: 20px;
+        }
+        .link-item {
+            margin: 10px; /* مسافة بين العناصر */
+            text-align: center; /* توسيط النص */
+        }
+        a {
+            text-decoration: none;
+            color: black; /* لون الروابط */
+            display: block; /* جعل الروابط ككتل */
+        }
+        .small-image {
+            width: 100px; /* عرض الصورة الصغيرة */
+            height: 100px; /* ارتفاع الصورة الصغيرة */
+            border-radius: 50%; /* لجعل الصورة الصغيرة دائرية */
+            object-fit: cover; /* لملاءمة الصورة داخل الدائرة */
+            margin: 5px auto; /* توسيط الصورة الصغيرة */
+        }
+        .link-description {
+            font-size: 18px; /* تكبير حجم الخط للوصف */
+            margin-top: 10px; /* زيادة المسافة بين الصورة والوصف */
+            line-height: 1.5; /* تحسين تباعد الأسطر */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="image-container">
+        <img src="mojpeg.jpeg" alt="صورة كبيرة">
+    </div>
+
+    <div class="links">
+        <div class="link-item">
+            <a href="https://www.instagram.com/xx_mostafa_mo7amed_xx?igsh=MTViMDg0MzhnN3BiMg==">
+                <img class="small-image" src="insjpeg.jpeg" alt="صورة صغيرة 1">
+                <p class="link-description">instgram</p>
+            </a>
+        </div>
+        <div class="link-item">
+            <a href="https://www.facebook.com/mostafa.mohamed.37819959?mibextid=ZbWKwL">
+                <img class="small-image" src="facjpeg.jpeg" alt="صورة صغيرة 2">
+                <p class="link-description">facebook</p>
+            </a>
+        </div>
+        <div class="link-item">
+            <a href="https://www.snapchat.com/add/mostafa0mo7amed?share_id=3j-WEnO7RYE&locale=en-US">
+                <img class="small-image" src="sna.jpeg" alt="صورة صغيرة 3">
+                <p class="link-description">sanpchat</p>
+            </a>
+        </div>
+        <div class="link-item">
+            <a href="https://wa.me/message/HVZSUF4SUHASH1">
+                <img class="small-image" src="wha.jpeg" alt="صورة صغيرة 4">
+                <p class="link-description">whatsapp010</p>
+            </a>
+        </div>
+        <div class="link-item">
+            <a href="https://wa.me/qr/G2JIXJ4TLV7RM1">
+                <img class="small-image" src="wahbjpeg.jpeg" alt="صورة صغيرة 5">
+                <p class="link-description">whatsapp011</p>
+            </a>
+        </div>
+        <div class="link-item">
+            <a href="https://www.tiktok.com/@xx_mostafa_mo7amed_xx?_t=8psh361qmgs&_r=1">
+                <img class="small-image" src="tokjpeg.jpeg" alt="صورة صغيرة 6">
+                <p class="link-description">tiktok</p>
+            </a>
+        </div>
+        <div class="link-item">
+            <a href="https://693306126.sarhne.com//">
+                <img class="small-image" src="sa.jpeg" alt="صورة صغيرة 7">
+                <p class="link-description">sarhne</p>
+            </a>
+        </div>
+    </div>
+    <!DOCTYPE html>
+    <!DOCTYPE html>
+    <!DOCTYPE html><!DOCTYPE html>
+    <html lang="ar">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>تساقط القلوب</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                height: 100vh;
+                background-color: #f0f0f0;
+                overflow: hidden;
+                position: relative;
+            }
+            #message {
+                display: none;
+                font-size: 2em;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: #ff4d4d;
+            }
+            .heart {
+                position: absolute;
+                color: #ff4d4d;
+                font-size: 1.5em;
+                animation: fall linear forwards;
+            }
+            @keyframes fall {
+                0% {
+                    transform: translateY(0);
+                }
+                100% {
+                    transform: translateY(100vh);
+                    opacity: 0;
+                }
+            }
+            #button {
+                padding: 10px 20px;
+                font-size: 1.2em;
+                cursor: pointer;
+                background-color: #ff4d4d;
+                border: none;
+                color: white;
+                border-radius: 5px;
+                position: absolute;
+                bottom: 20px; /* تحديد موضع الزر في الأسفل */
+            }
+        </style>
+    </head>
+    <body>
+    
+        <div id="message">بحبك يا عم</div>
+        <button id="button">دوس هنا كدا🌚</button>
+    
+        <script>
+            document.getElementById('button').addEventListener('click', function() {
+                const message = document.getElementById('message');
+                message.style.display = 'block';
+    
+                for (let i = 0; i < 50; i++) {
+                    createHeart();
+                }
+    
+                setTimeout(() => {
+                    message.style.display = 'none';
+                }, 3000);
+            });
+    
+            function createHeart() {
+                const heart = document.createElement('div');
+                heart.classList.add('heart');
+                heart.innerHTML = '❤️';
+    
+                heart.style.left = Math.random() * 100 + 'vw';
+                heart.style.animationDuration = Math.random() * 2 + 3 + 's';
+    
+                document.body.appendChild(heart);
+    
+                heart.addEventListener('animationend', () => {
+                    heart.remove();
+                });
+            }
+        </script>
+    </body>
+    </html>
+    
